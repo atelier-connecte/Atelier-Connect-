@@ -20,7 +20,7 @@
 | Objectif en 1 phrase | Présenter l'offre de services numériques locaux et générer des prises de contact via un formulaire. |
 | Statut | ⚠️ À confirmer (En développement / En production) |
 | Utilisateurs actuels | ⚠️ À confirmer |
-| Dernière mise à jour de ce fichier | 2026-04-13 |
+| Dernière mise à jour de ce fichier | 2026-04-14 |
 
 ---
 
@@ -137,6 +137,8 @@ L-Atelier_connect-/
 
 ## 7. FICHIERS DE DOCUMENTATION AUTORISÉS
 
+> Maximum 6 fichiers .md à la racine
+
 | Fichier | Rôle |
 |---|---|
 | PROJET_CONTEXTE.md | Source de vérité (ce fichier) |
@@ -144,6 +146,7 @@ L-Atelier_connect-/
 | BUGS.md | Bugs connus et leur statut |
 | README.md | Présentation du projet |
 | STACK_STANDARD.md | Stack de référence |
+| CADRAGE_STRATEGIQUE.md | Identité, positionnement et règles de communication de L'Atelier Connecté |
 
 Tout autre fichier `.md` va dans `_archives/`.
 
