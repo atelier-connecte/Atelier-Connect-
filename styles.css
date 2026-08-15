@@ -361,6 +361,19 @@ section {
     gap: 30px;
 }
 
+.services-grid + .services-subgroup-title {
+    margin-top: 50px;
+}
+
+.services-subgroup-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-gray);
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--light-bg);
+}
+
 .service-card {
     background: var(--light-bg);
     padding: 40px 30px;
@@ -907,6 +920,10 @@ section {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 12px;
     margin-top: 6px;
+}
+
+.case-results-single {
+    grid-template-columns: 1fr;
 }
 
 .case-results span {
