@@ -156,10 +156,21 @@ Tout autre fichier `.md` va dans `_archives/`.
 
 > Remplir EN DÉBUT de session. Compléter EN FIN de session.
 
-**Objectif de la session :** Nettoyage visuel section cas concret, correction bug JS animation, intégration normes design, suppression fichiers parasites.  
-**Fichiers concernés :** `index.html`, `styles.css`, `script.js`, `PROJET_CONTEXTE.md`, `_archives/ressources/`.  
-**Hors scope cette session :** sections `hero`, `apropos`, `services`, `tarifs`, `contact`, `footer`, navigation, EmailJS hors ligne 43, `README.md`, `STACK_STANDARD.md`, `assets/`.  
-**Résultat de fin de session :** ⚠️ En cours.
+### Session précédente (avril 2026 — clôturée rétroactivement le 2026-08-15)
+
+**Objectif de la session :** Nettoyage visuel section cas concret, correction bug JS animation, intégration normes design, suppression fichiers parasites.
+**Fichiers concernés :** `index.html`, `styles.css`, `script.js`, `PROJET_CONTEXTE.md`, `_archives/ressources/`.
+**Hors scope cette session :** sections `hero`, `apropos`, `services`, `tarifs`, `contact`, `footer`, navigation, EmailJS hors ligne 43, `README.md`, `STACK_STANDARD.md`, `assets/`.
+**Résultat de fin de session :** Jamais refermée formellement à l'époque — reprise identifiée lors de l'audit du 2026-08-06 (section 11). Clôturée rétroactivement sans reprise de contenu ; le travail effectif de cette période est reflété par les commits `00b72fa` et `1fc008f` de l'historique git.
+
+### Session du 2026-08-15 — Unification des offres site/outils + IA
+
+**Objectif de la session :** Fusionner l'offre historique (sites/outils sur mesure) et l'offre architecture/automatisation IA en un seul profil cohérent, sur une seule page.
+**Décision structurante :** intégration complète dans les sections partagées existantes (`#services`, `#realisations`, `#tarifs`, formulaire de contact), plutôt qu'un système d'aiguillage vers deux blocs séparés (V1 jugée non challengée, offres juxtaposées sans unification). À l'intérieur de `#services`, sous-titres de sous-groupes conservés pour garder une lisibilité entre les deux types de prestations.
+**Fichiers concernés :** `index.html`, `styles.css`.
+**Hors scope cette session :** le backlog de l'audit de reprise du 2026-08-06 (section 11 — statut du site, utilisateurs actuels, décisions figées section 6, `graphify-out/`, mention obsolète "Cascade" en pied de page) reste en attente, traité dans une session dédiée à part.
+**Vérification :** rendu contrôlé visuellement en desktop et mobile (preview locale), aucune anomalie constatée.
+**Résultat de fin de session :** ✅ Testé et commité (`5366869`). Push vers `origin/main` en attente — échec 403 (droits d'accès du compte git local insuffisants sur le repo distant, à résoudre par Kinder).
 
 ---
 
@@ -225,3 +236,16 @@ Tout autre fichier `.md` va dans `_archives/`.
 *Template source : METHODO/PROJET_CONTEXTE_TEMPLATE.md*  
 *Rempli avec : Cascade (analyse projet existant)*  
 *Lu par : Cascade à chaque début de session*
+
+---
+
+## 11. AUDIT DE REPRISE (2026-08-06)
+
+**Constat :** `git status` propre (rien à committer), doc cohérente avec la structure de fichiers réelle. En revanche, plusieurs champs sont restés marqués `⚠️ À confirmer` depuis la création du fichier (14/04/2026) : Statut, Utilisateurs actuels, et les trois décisions figées en section 6 — jamais levés depuis. La section 8 (SESSION EN COURS) affiche encore "Résultat de fin de session : ⚠️ En cours" — la dernière session ouverte n'a jamais été refermée proprement, alors que le dernier commit (`73dbfdd`) date de la réorganisation doc qui a suivi.
+
+**Backlog (reprise, complète le backlog existant en section 9) :**
+1. Lever les `⚠️ À confirmer` de la section 1 (Statut réel du site, utilisateurs actuels) — demander directement à Kinder si le site est en ligne / a des vrais utilisateurs.
+2. Lever les `⚠️ À confirmer` de la section 6 (décisions figées) — probablement déjà tranché dans les faits (le code applique déjà ces choix), il ne reste qu'à les acter formellement.
+3. Refermer proprement la section 8 (SESSION EN COURS) — dernier "Résultat" resté à "⚠️ En cours" depuis avril, aucune trace de clôture malgré des commits ultérieurs.
+4. Pas de `graphify-out/` — non initialisé, à faire avant toute mission de fond (le site a dépassé le stade minimal : plusieurs fichiers, EmailJS, `_archives/`).
+5. Le pied de page mentionne encore Cascade comme outil pilote — obsolète selon la méthode actuelle (Claude Code), à corriger à la prochaine reprise.
