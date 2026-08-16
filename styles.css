@@ -779,6 +779,21 @@ section {
     object-fit: contain;
 }
 
+.footer-portfolio h4 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.footer-portfolio-link {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-portfolio-link:hover {
+    color: var(--primary-color);
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: 30px;
@@ -821,6 +836,24 @@ section {
     border-radius: var(--border-radius);
     padding: 34px;
     box-shadow: 0 8px 26px rgba(0, 0, 0, 0.06);
+    position: relative;
+}
+
+.case-study-card-personal {
+    padding-top: 50px;
+}
+
+.case-personal-badge {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--secondary-color);
+    color: var(--text-dark);
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .case-study-col {
@@ -1229,6 +1262,16 @@ section {
 
     .case-results {
         grid-template-columns: 1fr;
+    }
+
+    .case-study-card-personal {
+        padding-top: 60px;
+    }
+
+    .case-personal-badge {
+        white-space: nowrap;
+        font-size: 0.75rem;
+        padding: 6px 14px;
     }
 }
 
