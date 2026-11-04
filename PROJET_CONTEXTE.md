@@ -11,6 +11,19 @@
 
 ---
 
+## STATUT — fait foi pour les statuts (lu par Pilotage)
+
+```
+STATUT DU PROJET : ?
+MISSION : Unification des offres site/outils et IA (2026-08-15) — En vérification
+IDÉES PARQUÉES :
+  - Lever les « À confirmer » (statut, utilisateurs, décisions figées)
+  - Formaliser les bugs dans BUGS.md après test manuel
+  - Initialiser graphify-out/
+  - Retirer la mention « Cascade » du pied de page
+```
+*(Bloc ajouté le 2026-10-30, validé par Kinder. Statut du projet en « ? » : le site est-il en ligne ?)*
+
 ## 1. IDENTITÉ DU PROJET
 
 | Champ | Valeur |
