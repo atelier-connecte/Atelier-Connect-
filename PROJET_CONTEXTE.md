@@ -14,15 +14,17 @@
 ## STATUT — fait foi pour les statuts (lu par Pilotage)
 
 ```
-STATUT DU PROJET : ?
-MISSION : Unification des offres site/outils et IA (2026-08-15) — En vérification
+STATUT DU PROJET : En développement
+MISSION : Unification des offres site/outils et IA (2026-08-15) — En implémentation
 IDÉES PARQUÉES :
   - Lever les « À confirmer » (statut, utilisateurs, décisions figées)
   - Formaliser les bugs dans BUGS.md après test manuel
   - Initialiser graphify-out/
   - Retirer la mention « Cascade » du pied de page
 ```
-*(Bloc ajouté le 2026-10-30, validé par Kinder. Statut du projet en « ? » : le site est-il en ligne ?)*
+*(Bloc ajouté le 2026-10-30, validé par Kinder. Tri du 2026-11-10 : statut « En développement » car une mission est en implémentation ; à passer « En production » si Kinder confirme que le site est en ligne.)*
+
+---
 
 ## 1. IDENTITÉ DU PROJET
 
@@ -31,7 +33,7 @@ IDÉES PARQUÉES :
 | Nom | L'Atelier Connecté |
 | Type | Web |
 | Objectif en 1 phrase | Présenter l'offre de services numériques locaux et générer des prises de contact via un formulaire. |
-| Statut | ⚠️ À confirmer (En développement / En production) |
+| Statut | En développement (tri 2026-11-10 ; site en ligne ? à confirmer par Kinder) |
 | Utilisateurs actuels | ⚠️ À confirmer |
 | Dernière mise à jour de ce fichier | 2026-04-14 |
 
@@ -76,7 +78,6 @@ L-Atelier_connect-/
 ├── script.js
 ├── PROJET_CONTEXTE.md
 ├── README.md
-├── STACK_STANDARD.md
 ├── _archives/
 │   ├── GUIDE-EMAILJS.md
 │   ├── PROJET_CONTEXTE_TEMPLATE.md
@@ -158,10 +159,9 @@ L-Atelier_connect-/
 | CHANGELOG.md | Historique des missions terminées |
 | BUGS.md | Bugs connus et leur statut |
 | README.md | Présentation du projet |
-| STACK_STANDARD.md | Stack de référence |
 | CADRAGE_STRATEGIQUE.md | Identité, positionnement et règles de communication de L'Atelier Connecté |
 
-Tout autre fichier `.md` va dans `_archives/`.
+Tout autre fichier `.md` va dans `_archives/`. Les 3 gabarits `TEMPLATE_*.md` (speech, email, présentation) sont rangés dans `docs/` depuis le 2026-11-10.
 
 ---
 
