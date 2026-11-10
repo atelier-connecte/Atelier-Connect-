@@ -161,7 +161,7 @@ L-Atelier_connect-/
 | README.md | Présentation du projet |
 | CADRAGE_STRATEGIQUE.md | Identité, positionnement et règles de communication de L'Atelier Connecté |
 
-Tout autre fichier `.md` va dans `_archives/`. Les 3 gabarits `TEMPLATE_*.md` (speech, email, présentation) sont rangés dans `docs/` depuis le 2026-11-10.
+Tout autre fichier `.md` va dans `_archives/`. Les 3 gabarits `TEMPLATE_*.md` (speech, email, présentation) sont rangés dans `docs/` depuis le 2026-11-10 ; ceux d'email et de présentation sont dans `docs/archive/` (dossier d'archive du projet, R30 : hors limite de 5).
 
 ---
 
