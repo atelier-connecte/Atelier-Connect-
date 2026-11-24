@@ -15,7 +15,7 @@
 
 ```
 STATUT DU PROJET : En production
-MISSION : Unification des offres site/outils et IA (2026-08-15) — En implémentation
+MISSION : Unification des offres site/outils et IA (2026-08-15) — En attente (mise en pause de la mission le 2026-11-24, mise à plat v7.7 : limite de 5 projets avec mission de fond ; renvoyée le 2026-11-05 pour un défaut sur téléphone, bloc Contact)
 IDÉES PARQUÉES :
   - Lever les « À confirmer » (statut, utilisateurs, décisions figées)
   - Formaliser les bugs dans BUGS.md après test manuel
