@@ -11,10 +11,10 @@
 
 ---
 
-## STATUT — fait foi pour les statuts (lu par Pilotage)
+## STATUT — fait foi pour les statuts (lu par Pilotage et par le tableau de mission)
 
 ```
-STATUT DU PROJET : En développement
+STATUT DU PROJET : En production
 MISSION : Unification des offres site/outils et IA (2026-08-15) — En implémentation
 IDÉES PARQUÉES :
   - Lever les « À confirmer » (statut, utilisateurs, décisions figées)
@@ -22,7 +22,7 @@ IDÉES PARQUÉES :
   - Initialiser graphify-out/
   - Retirer la mention « Cascade » du pied de page
 ```
-*(Bloc ajouté le 2026-10-30, validé par Kinder. Tri du 2026-11-10 : statut « En développement » car une mission est en implémentation ; à passer « En production » si Kinder confirme que le site est en ligne.)*
+*(Bloc ajouté le 2026-10-30, validé par Kinder. Mise à plat du 2026-11-24 (v7.7, lot 3) : statut unique « En production », site en ligne en HTTPS sur atelier-connecte.keamder.com.)*
 
 ---
 
@@ -33,9 +33,9 @@ IDÉES PARQUÉES :
 | Nom | L'Atelier Connecté |
 | Type | Web |
 | Objectif en 1 phrase | Présenter l'offre de services numériques locaux et générer des prises de contact via un formulaire. |
-| Statut | En développement (tri 2026-11-10 ; site en ligne ? à confirmer par Kinder) |
+| Statut | En production (site en ligne en HTTPS sur atelier-connecte.keamder.com ; mise à plat 2026-11-24) |
 | Utilisateurs actuels | ⚠️ À confirmer |
-| Dernière mise à jour de ce fichier | 2026-04-14 |
+| Dernière mise à jour de ce fichier | 2026-11-24 |
 
 ---
 
